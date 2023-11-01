@@ -25,3 +25,5 @@ Task 10: This function first checks if the tree is NULL. If it is, it returns 0.
 Task 11: This function first checks if the tree is NULL. If it is, it returns 0. Then it recursively calculates the sizes of the left and right subtrees of the current node and adds 1 for the current node. It returns the sum of these sizes, which gives the total size of the tree.
 
 Task 12: This function first checks if the tree is NULL. If it is, it returns 0. Then it checks if both the left and right child of the node are NULL. If they are, it means the node is a leaf, so it returns 1. Otherwise, it recursively counts the leaves in the left and right subtrees of the current node and returns the sum of these counts.
+
+Task 13: This function first checks if the tree is NULL. If it is, it returns 0. Then it checks if either the left or right child of the node is not NULL. If either is, it means the node has at least one child, so it returns 1 plus the number of nodes in its left and right subtrees. Otherwise, it returns 0.
