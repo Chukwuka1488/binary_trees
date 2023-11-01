@@ -20,4 +20,4 @@ Task 8: This function first checks if the tree or func is NULL. If either is, it
 
 Task 9: This function first checks if the tree is NULL. If it is, it returns 0. Then it recursively calculates the heights of the left and right subtrees of the current node and adds 1 to each. It returns the larger of the two heights.
 
-Task 10: 
+Task 10: This function first checks if the tree is NULL. If it is, it returns 0. Then it enters a while loop that continues as long as the parent of the current node is not NULL. In each iteration of the loop, it increments the depth and moves up to the parent of the current node. When it reaches a node with no parent (i.e., the root), it exits the loop and returns the depth.
