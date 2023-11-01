@@ -23,3 +23,5 @@ Task 9: This function first checks if the tree is NULL. If it is, it returns 0. 
 Task 10: This function first checks if the tree is NULL. If it is, it returns 0. Then it enters a while loop that continues as long as the parent of the current node is not NULL. In each iteration of the loop, it increments the depth and moves up to the parent of the current node. When it reaches a node with no parent (i.e., the root), it exits the loop and returns the depth.
 
 Task 11: This function first checks if the tree is NULL. If it is, it returns 0. Then it recursively calculates the sizes of the left and right subtrees of the current node and adds 1 for the current node. It returns the sum of these sizes, which gives the total size of the tree.
+
+Task 12: This function first checks if the tree is NULL. If it is, it returns 0. Then it checks if both the left and right child of the node are NULL. If they are, it means the node is a leaf, so it returns 1. Otherwise, it recursively counts the leaves in the left and right subtrees of the current node and returns the sum of these counts.
