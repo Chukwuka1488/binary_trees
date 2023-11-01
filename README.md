@@ -15,3 +15,5 @@ Task 5: This function first checks if the node is NULL. If it is, it returns 0. 
 Task 6: This function first checks if the tree or func is NULL. If either is, it returns without doing anything. Then it calls the function func with the value of the current node. After that, it recursively traverses the left and right subtrees of the current node.
 
 Task 7: This function first checks if the tree or func is NULL. If either is, it returns without doing anything. Then it recursively traverses the left subtree of the current node, calls the function func with the value of the current node, and finally recursively traverses the right subtree of the current node.
+
+Task 8: This function first checks if the tree or func is NULL. If either is, it returns without doing anything. Then it recursively traverses the left and right subtrees of the current node, and finally calls the function func with the value of the current node.
