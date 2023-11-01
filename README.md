@@ -9,3 +9,7 @@ Task 2: This function first checks if the parent is NULL. If it is, it returns N
 Task 3: This function uses a post-order traversal to delete all nodes in the tree. It first checks if the tree is NULL. If it is, it returns without doing anything. Then it recursively deletes the left and right subtrees of the current node. Finally, it frees the memory of the current node.
 
 Task 4: This function first checks if the node is NULL. If it is, it returns 0. Then it checks if both the left and right child of the node are NULL. If they are, it means the node is a leaf, so it returns 1. Otherwise, it returns 0.
+
+Task 5: This function first checks if the node is NULL. If it is, it returns 0. Then it checks if the parent of the node is NULL. If it is, it means the node is a root, so it returns 1. Otherwise, it returns 0.
+
+Task 6: This function first checks if the tree or func is NULL. If either is, it returns without doing anything. Then it calls the function func with the value of the current node. After that, it recursively traverses the left and right subtrees of the current node.
