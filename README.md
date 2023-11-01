@@ -7,3 +7,5 @@ Task 1: This function first checks if the parent is NULL. If it is, it returns N
 Task 2: This function first checks if the parent is NULL. If it is, it returns NULL. Then it creates a new node with the given value and parent. If the creation of the new node fails, it returns NULL. If the parent already has a right child, it sets the old right child as the right child of the new node and updates its parent pointer. Finally, it sets the new node as the right child of the parent.
 
 Task 3: This function uses a post-order traversal to delete all nodes in the tree. It first checks if the tree is NULL. If it is, it returns without doing anything. Then it recursively deletes the left and right subtrees of the current node. Finally, it frees the memory of the current node.
+
+Task 4: This function first checks if the node is NULL. If it is, it returns 0. Then it checks if both the left and right child of the node are NULL. If they are, it means the node is a leaf, so it returns 1. Otherwise, it returns 0.
