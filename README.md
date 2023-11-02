@@ -31,3 +31,6 @@ Task 13: This function first checks if the tree is NULL. If it is, it returns 0.
 Task 14: This code includes two functions. The binary_tree_height function measures the height of a binary tree. It first checks if the tree is NULL. If it is, it returns 0. Then it recursively calculates the heights of the left and right subtrees of the current node and adds 1 to each. It returns the larger of the two heights.
 
 The binary_tree_balance function measures the balance factor of a binary tree. It first checks if the tree is NULL. If it is, it returns 0. Then it calculates the balance factor by subtracting the height of the right subtree from the height of the left subtree. It returns this balance factor.
+
+
+Task 15:  This function works by recursively checking if all nodes in the tree have either 0 or 2 children. It returns 1 if the tree is full and 0 otherwise. If the input tree is NULL, it also returns 0.
