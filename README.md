@@ -36,3 +36,5 @@ The binary_tree_balance function measures the balance factor of a binary tree. I
 Task 15:  This function works by recursively checking if all nodes in the tree have either 0 or 2 children. It returns 1 if the tree is full and 0 otherwise. If the input tree is NULL, it also returns 0.
 
 Task 16: This function works by checking if all internal nodes have two children and all leaves are at the same level. It returns 1 if the tree is perfect and 0 otherwise. If the input tree is NULL, it also returns 0.
+
+Task 17: This function works by checking if the input node and its parent are not NULL. If either is NULL, it returns NULL. Then it checks if the input node is the left child of its parent. If it is, it returns the right child of the parent (which is the sibling of the input node). If the input node is not the left child of its parent, it must be the right child, so it returns the left child of the parent (which is again the sibling of the input node).
