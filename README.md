@@ -42,3 +42,5 @@ Task 17: This function works by checking if the input node and its parent are no
 Task 18: This function works by checking if the input node and its parent are not NULL. If either is NULL, it returns NULL. Then it calls the binary_tree_sibling function with the parent of the input node as an argument. This will return the sibling of the parent, which is the uncle of the input node.
 
 Task 19: This function works by iterating up through the ancestors of the first node and for each ancestor, it iterates through the ancestors of the second node. If it finds a common ancestor, it returns it. If no common ancestor is found, it returns NULL.
+
+Task 20: This function works by first finding the height of the tree and then printing nodes at each level from top to bottom. The print_given_level function is used to print nodes at a given level.
