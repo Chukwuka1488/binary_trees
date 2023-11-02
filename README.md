@@ -40,3 +40,5 @@ Task 16: This function works by checking if all internal nodes have two children
 Task 17: This function works by checking if the input node and its parent are not NULL. If either is NULL, it returns NULL. Then it checks if the input node is the left child of its parent. If it is, it returns the right child of the parent (which is the sibling of the input node). If the input node is not the left child of its parent, it must be the right child, so it returns the left child of the parent (which is again the sibling of the input node).
 
 Task 18: This function works by checking if the input node and its parent are not NULL. If either is NULL, it returns NULL. Then it calls the binary_tree_sibling function with the parent of the input node as an argument. This will return the sibling of the parent, which is the uncle of the input node.
+
+Task 19: This function works by iterating up through the ancestors of the first node and for each ancestor, it iterates through the ancestors of the second node. If it finds a common ancestor, it returns it. If no common ancestor is found, it returns NULL.
