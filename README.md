@@ -27,3 +27,7 @@ Task 11: This function first checks if the tree is NULL. If it is, it returns 0.
 Task 12: This function first checks if the tree is NULL. If it is, it returns 0. Then it checks if both the left and right child of the node are NULL. If they are, it means the node is a leaf, so it returns 1. Otherwise, it recursively counts the leaves in the left and right subtrees of the current node and returns the sum of these counts.
 
 Task 13: This function first checks if the tree is NULL. If it is, it returns 0. Then it checks if either the left or right child of the node is not NULL. If either is, it means the node has at least one child, so it returns 1 plus the number of nodes in its left and right subtrees. Otherwise, it returns 0.
+
+Task 14: This code includes two functions. The binary_tree_height function measures the height of a binary tree. It first checks if the tree is NULL. If it is, it returns 0. Then it recursively calculates the heights of the left and right subtrees of the current node and adds 1 to each. It returns the larger of the two heights.
+
+The binary_tree_balance function measures the balance factor of a binary tree. It first checks if the tree is NULL. If it is, it returns 0. Then it calculates the balance factor by subtracting the height of the right subtree from the height of the left subtree. It returns this balance factor.
